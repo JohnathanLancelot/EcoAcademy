@@ -10,8 +10,40 @@ body {
 }
 
 p {
+    font-family:'Playpen Sans', sans-serif;
+    font-size: 1vw;
+}
+
+a {
+    color: #b6b45d;
+}
+
+.caption {
+    color: #577947;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5%;
+    font-family:'Playpen Sans', sans-serif;
+    font-size: 0.8vw;
+}
+
+.checkbox-label input[type="checkbox"] {
+    flex-shrink: 0;
+    margin-top: 0.5em;
+}
+
+input[type="checkbox"] {
+    accent-color: #e4d977;
+    width: 1rem;
+    height: 1rem;
+}
+
+.cursive-accents, .homework-section h3 {
     font-family:'Lovers Quarrel', cursive;
-    font-size: 1.8vw;
+    font-size: 2.7vw;
 }
 
 #title-image {
@@ -40,11 +72,71 @@ p {
     margin: 2vw;
 }
 
-footer {
-    text-align: center;
+.topic-page-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1vw;
+    padding-right: 6vw;
 }
 
-footer p {
+.topic-page-container > div {
+    flex: 1;
+}
+
+.homework-title-card {
+    width: 30vw;
+}
+
+.homework-section, .blog-section {
+    width: 30wv;
+    margin: 10vh;
+}
+
+.homework-section > h3 {
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 2vw;
+    font-weight: 100;
+}
+
+.homework-section > form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 60%;
+    margin-left: 20%;
+    line-height: 1.8rem;
+    gap: 2%;
+}
+
+.blog-entry-card {
+    border-color: #777866;
+    border-style: solid;
+    border-width: 0.16rem;
+    padding: 5%;
+    margin-top: 1vh;
+}
+
+.blog-entry-card > h2 {
+    font-family:'Playpen Sans', sans-serif;
+    font-size: 1.5vw;
+    color: #435b37;
+}
+
+.blog-entry-card > p {
+    font-size: 0.8vw;
+}
+
+.blog-entry-card > img {
+    width: 95%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 4vh;
+}
+
+footer p, .blog-entry-card h3, .caption {
     font-family: 'Courier New', monospace;
     font-size: 0.8vw;
 }

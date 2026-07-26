@@ -6,20 +6,62 @@
         <title>ECO ACADEMY - GIS</title>
         <link rel="stylesheet" href="../styles.css">
         <link rel="scripts" href="scripts.js">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lovers+Quarrel&family=Satisfy&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <img class="topic-header-image" src="../assets/images/icons/GIS.png" alt="GIS Icon">
-        </header>
         <div class="topic-page-container">
             <div class="homework-section">
-
+                <img class="homework-title-card" src="../assets/images/GIS Homework.png" alt="Today's Homework Title Card">
+                <h3>26th July 2026</h3>
+                <form>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="task1">
+                        <span>Map locations of Auckland dune forests in QGIS.</span>
+                    </label><br>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="task2">
+                        <span>Learn about why dune forests appear inland and how they form, 
+                        and investigate the history of the dune forests in the Muriwai / Waimauku area.</span>
+                    </label><br>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="task3">
+                        <span>Visit and take photos of a local dune forest. Identify the plants you find.</span>
+                    </label><br>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="task4">
+                        <span>Upload plant and animal findings to iNaturalist.</span>
+                    </label><br>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="task5">
+                        <span>Complete a lesson in Map Academy on Udemy.</span>
+                    </label><br>
+                </form>
             </div>
             <div class="blog-section">
-
+                <img class="topic-header-image" src="../assets/images/icons/GIS.png" alt="GIS Icon">
+                <div class="blog-entry-card">
+                    <h3>26.07.2027</h3>
+                    <h2>Wait... THAT'S a dune forest?</h2>
+                    <img src="../assets/images/blog-images/gis/dune-forest-satelite.png" alt="A satelite image of thick green forest">
+                    <p class="caption">[Satelite image of a 'dune forest' taken from Google Maps.]</p>
+                    <p>
+                        The conundrum started when I was wrangling table joins for the first time in QGIS.
+                        I'd sourced <a href src="https://data-aucklandcouncil.opendata.arcgis.com/documents/7af316a22b694de0a5959042fe435cc4/about">
+                        some council data</a> on ecosystem types around Auckland, and was perturbed to 
+                        find that "dune forests" were showing up far inland, in areas I had visited and knew 
+                        for certain did not feature sand dunes. I thought of course that I had wholly messed up 
+                        the table join and that therefore nothing in the map was reliable. But a thorough check 
+                        revealed no issues with the placement of other well-known habitats / forest types.
+                    </p>
+                    <img src="../assets/images/blog-images/gis/gis-dune-forest.png" alt="A QGIS screenshot showing a section of Auckland with several dune forests marked near the West Coast.">
+                    <p class="caption">[Screenshot from QGIS with dune forests marked in blue.]</p>
+                    <p>
+                        It turns out, inland dune forests aren't uncommon in West Auckland. But why are they called that, 
+                        given the ones I've seen simply look like regular forests?
+                    </p>
+                </div>
             </div>
         </div>
     </body>
