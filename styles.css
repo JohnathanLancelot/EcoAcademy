@@ -1,0 +1,50 @@
+body {
+    background-color: #fffbef;
+    text-align: center;
+}
+
+.lovers-quarrel-regular {
+  font-family: "Lovers Quarrel", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+    font-family:'Lovers Quarrel', cursive;
+    font-size: 1.8vw;
+}
+
+#title-image {
+    width: 40vw;
+    height: auto;
+    margin-top: 1vw;
+    margin-bottom: 0vw;
+}
+
+#topics-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2vw;
+}
+
+.topic img {
+    width: 10vw;
+    height: 10vw;
+    object-fit: contain;
+}
+
+.topic-header-image {
+    width: 12vw;
+    margin: 2vw;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Courier New', monospace;
+    font-size: 0.8vw;
+}
