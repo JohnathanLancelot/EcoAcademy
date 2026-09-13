@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+
+footer p, .blog-entry-card h3, .caption {
+    font-family: 'Courier New', monospace;
+    font-size: 0.8vw;
+}
