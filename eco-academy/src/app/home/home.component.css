@@ -13,11 +13,6 @@
     object-fit: contain;
 }
 
-.topic-header-image {
-    width: 12vw;
-    margin: 2vw;
-}
-
 .topic-page-container {
     display: flex;
     flex-direction: row;

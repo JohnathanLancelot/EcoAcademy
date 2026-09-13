@@ -25,3 +25,8 @@
 .blog-entry-card > img {
     width: 95%;
 }
+
+.topic-header-image {
+    width: 12vw;
+    margin: 2vw;
+}
