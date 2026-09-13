@@ -1,0 +1,26 @@
+
+#topics-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2vw;
+}
+
+.topic img {
+    width: 10vw;
+    height: 10vw;
+    object-fit: contain;
+}
+
+.topic-header-image {
+    width: 12vw;
+    margin: 2vw;
+}
+
+.topic-page-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5vw;
+}
