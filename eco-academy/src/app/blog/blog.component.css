@@ -1,0 +1,27 @@
+
+.blog-section {
+    width: 45vw;
+    margin-top: 3vh;
+}
+
+.blog-entry-card {
+    border-color: #777866;
+    border-style: solid;
+    border-width: 0.16rem;
+    padding: 5%;
+    margin-top: 1vh;
+}
+
+.blog-entry-card > h2 {
+    font-family:'Playpen Sans', sans-serif;
+    font-size: 1.5vw;
+    color: #435b37;
+}
+
+.blog-entry-card > p {
+    font-size: 0.8vw;
+}
+
+.blog-entry-card > img {
+    width: 95%;
+}

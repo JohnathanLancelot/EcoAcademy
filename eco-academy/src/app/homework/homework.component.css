@@ -1,0 +1,25 @@
+
+.homework-title-card {
+    width: 30vw;
+}
+
+.homework-section {
+    width: 30vw;
+    margin-top: 3vh;
+}
+
+.homework-section > h3 {
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 2vw;
+    font-weight: 100;
+}
+
+.homework-section > form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 70%;
+    margin-left: 10%;
+    line-height: 1.8rem;
+    gap: 2%;
+}
