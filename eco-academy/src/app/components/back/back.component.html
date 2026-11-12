@@ -1,0 +1,7 @@
+<a routerLink="/" aria-label="Back to home">
+    @if (imageUrl()) {
+        <img [src]="imageUrl()" />
+    } @else {
+        <span>&larr; Back</span>
+    }
+</a>

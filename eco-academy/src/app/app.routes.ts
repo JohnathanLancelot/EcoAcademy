@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { GisComponent } from './gis/gis.component';
+import { HomeComponent } from './pages/home/home.component';
+import { SubjectPageComponent } from './pages/subject-page/subject-page.component';
 
 export const routes: Routes = [
   {
@@ -8,7 +8,7 @@ export const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'gis',
-    component: GisComponent
+    path: 'subjects/:slug',
+    component: SubjectPageComponent
   }
 ];

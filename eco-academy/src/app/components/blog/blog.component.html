@@ -1,0 +1,7 @@
+<div class="blog-section">
+    <!-- Displays whatever header image was passed in for this page. -->
+    @if (topicHeaderImage(); as img) {
+        <img [src]="img.url" [alt]="img.alt" class="topic-header-image" />
+    }
+    <app-blog-post [post]="post1Data" />
+</div>

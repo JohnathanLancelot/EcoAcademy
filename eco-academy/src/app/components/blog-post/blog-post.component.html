@@ -1,0 +1,26 @@
+<article class="blog-entry-card">
+    <time>{{ post().date }}</time>
+    <h2>{{ post().title }}</h2>
+
+    <!-- Loop through the blocks array in the order they were defined in -->
+    @for (block of post().blocks; track $index) {
+        @switch (block.type) {
+            @case ('text') {
+                <div [innerHTML]="block.html"></div>
+            }
+            @case ('image') {
+                <app-blog-image [url]="block.url" [alt]="block.alt" [caption]="block.caption" />
+            }
+            @case ('video') {
+                <app-blog-video [url]="block.url" [caption]="block.caption" />
+            }
+        }
+    }
+
+    <!-- Render sources at the end if needed. -->
+    @if (post().sources; as sources) {
+        @if (sources.length > 0) {
+            <app-blog-sources [sources]="post().sources" />
+        }
+    }
+</article>

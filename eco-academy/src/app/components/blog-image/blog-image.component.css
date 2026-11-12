@@ -1,0 +1,13 @@
+/* Host targets the outer <app-blog-image> tag and makes the image CSS
+    work. Without it, width gets ignored. */
+:host {
+  display: block;
+  width: 100%;
+}
+
+img {
+  width: 95%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Centers the image */
+}
